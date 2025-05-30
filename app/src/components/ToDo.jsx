@@ -1,7 +1,11 @@
+import ToDoInput from "./ToDoInput";
+import ToDoTable from "./ToDoTable";
+
 export default function ToDo(){
     return(
         <div>
-            todo
+            <ToDoInput/>
+            <ToDoTable/>
         </div>
     )
 }

@@ -7,10 +7,13 @@ import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 
 import counterReducer from './store/counterSlice.js'
+import ToDoReducer from './store/ToDoSlice.js'
+
 
 const store = configureStore({
   reducer: {
-  counter: counterReducer
+  counter: counterReducer,
+  ToDos: ToDoReducer,
 }
 })
 
